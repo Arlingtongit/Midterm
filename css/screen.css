@@ -105,227 +105,76 @@ img.img1 {
   margin: 10px;
 }
 
-/* line 11, ../scss/_midterm.scss */
-ul {
-  margin-right: 100px;
-  color: yellow;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+/* line 12, ../scss/_midterm.scss */
+body {
+  background: black;
+  padding: 20px;
 }
 
 /* line 13, ../scss/_midterm.scss */
-li {
-  display: inline;
-  float: left;
+h1 {
+  color: white;
+  text-align: center;
+  margin: 60px;
+}
+
+/* line 14, ../scss/_midterm.scss */
+h2 {
+  color: white;
+  text-align: center;
 }
 
 /* line 15, ../scss/_midterm.scss */
-nav {
-  display: block;
-  width: 100px;
-  /*border: 1px solid black;*/
-  background-color: #0f0af5;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 6px;
-  text-align: center;
+p {
+  color: white;
 }
 
 /* line 16, ../scss/_midterm.scss */
-nav:hover, a:active {
-  background-color: #314c54;
-}
-
-/* line 18, ../scss/_midterm.scss */
-body {
-  background: black;
-  padding: 20px;
-}
-
-/* line 19, ../scss/_midterm.scss */
-h1 {
-  color: white;
-  text-align: center;
-  margin: 60px;
-}
-
-/* line 20, ../scss/_midterm.scss */
-h2 {
-  color: white;
-  text-align: center;
+h3 {
+  color: #fe0315;
 }
 
 /* line 21, ../scss/_midterm.scss */
-p {
-  color: white;
-}
-
-/* line 22, ../scss/_midterm.scss */
-h3 {
-  color: #fe0315;
-}
-
-/* line 25, ../scss/_midterm.scss */
-ul {
-  margin-right: 100px;
-  color: yellow;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 27, ../scss/_midterm.scss */
-li {
-  display: inline;
-  float: left;
-}
-
-/* line 29, ../scss/_midterm.scss */
-nav {
-  display: block;
-  width: 100px;
-  /*border: 1px solid black;*/
-  background-color: #0f0af5;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 6px;
-  text-align: center;
-}
-
-/* line 30, ../scss/_midterm.scss */
-nav:hover, a:active {
-  background-color: #314c54;
-}
-
-/* line 32, ../scss/_midterm.scss */
-body {
-  background: black;
-  padding: 20px;
-}
-
-/* line 33, ../scss/_midterm.scss */
-h1 {
-  color: white;
-  text-align: center;
-  margin: 60px;
-}
-
-/* line 34, ../scss/_midterm.scss */
-h2 {
-  color: white;
-  text-align: center;
-}
-
-/* line 35, ../scss/_midterm.scss */
-p {
-  color: white;
-}
-
-/* line 36, ../scss/_midterm.scss */
-s
-h3 {
-  color: #fe0315;
-}
-
-/* line 39, ../scss/_midterm.scss */
-ul {
-  margin-right: 100px;
-  color: yellow;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 41, ../scss/_midterm.scss */
-li {
-  display: inline;
-  float: left;
-}
-
-/* line 43, ../scss/_midterm.scss */
-nav {
-  display: block;
-  width: 100px;
-  /*border: 1px solid black;*/
-  background-color: #0f0af5;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 6px;
-  text-align: center;
-}
-
-/* line 44, ../scss/_midterm.scss */
-nav:hover, a:active {
-  background-color: #314c54;
-}
-
-/* line 46, ../scss/_midterm.scss */
 object {
   margin: 20px;
   padding-left: 470px;
 }
 
-/* line 48, ../scss/_midterm.scss */
+/* line 23, ../scss/_midterm.scss */
 body {
   background: black;
   padding: 20px;
 }
 
-/* line 49, ../scss/_midterm.scss */
+/* line 24, ../scss/_midterm.scss */
 h1 {
   color: white;
   text-align: center;
   margin: 70px;
 }
 
-/* line 50, ../scss/_midterm.scss */
+/* line 25, ../scss/_midterm.scss */
 h2 {
   color: white;
   text-align: center;
 }
 
-/* line 51, ../scss/_midterm.scss */
+/* line 26, ../scss/_midterm.scss */
 p.p1 {
   color: white;
   text-align: center;
 }
 
-/* line 53, ../scss/_midterm.scss */
+/* line 28, ../scss/_midterm.scss */
 img.img1 {
   padding-left: 560px;
   margin: 10px;
 }
 
-/* line 56, ../scss/_midterm.scss */
-nav {
-  display: block;
-  width: 100px;
-  /*border: 1px solid black;*/
-  background-color: #0f0af5;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 6px;
-  text-align: center;
-}
-
-/* line 57, ../scss/_midterm.scss */
-nav:hover, a:active {
-  background-color: #314c54;
-}
-
 /* =====================================
    CSS for <iframe> embedded element
    ===================================== */
-/* line 63, ../scss/_midterm.scss */
+/* line 35, ../scss/_midterm.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -338,7 +187,7 @@ nav:hover, a:active {
   height: 0;
 }
 
-/* line 72, ../scss/_midterm.scss */
+/* line 44, ../scss/_midterm.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -385,142 +234,277 @@ img, video {
 * put your navigation CSS here
 * ============================= 
 */
+/* menu button */
+/* line 17, ../scss/_navigation.scss */
+.menu a {
+  padding: 0.5em 0.625em;
+  /*10/16 */
+  background-color: #555555;
+  border-radius: 5px;
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+/* line 25, ../scss/_navigation.scss */
+.menu a:hover {
+  color: #555555;
+  background-color: #eeeeee;
+}
+
+/* line 30, ../scss/_navigation.scss */
+.menu {
+  margin-bottom: 1em;
+}
+
+/* line 34, ../scss/_navigation.scss */
+#topMenu {
+  display: none;
+  clear: both;
+}
+
+/* line 43, ../scss/_navigation.scss */
+nav ul {
+  list-style: none;
+}
+/* line 47, ../scss/_navigation.scss */
+nav li a {
+  display: block;
+  color: #eeeeee;
+  background-color: #555555;
+  text-transform: uppercase;
+  padding: 0.625em;
+  /* 10/16 */
+  text-decoration: none;
+  border-bottom: 1px solid #eeeeee;
+  font-weight: 900;
+}
+/* line 58, ../scss/_navigation.scss */
+nav li a:hover {
+  color: #555555;
+  background-color: #eeeeee;
+}
+/* line 63, ../scss/_navigation.scss */
+nav li a:active {
+  color: #555555;
+  background-color: #ff9900;
+}
+/* line 68, ../scss/_navigation.scss */
+nav li.current a {
+  color: #555555;
+  background-color: #ff9900;
+}
+
+/* line 74, ../scss/_navigation.scss */
+#bottom_nav {
+  background-color: #555555;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 50em) {
+  /* hide the menu button */
+  /* line 90, ../scss/_navigation.scss */
+  #smallMenu {
+    display: none;
+  }
+
+  /* line 95, ../scss/_navigation.scss */
+  #topMenu {
+    /* move main_nav to top of the screen */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-color: #555555;
+  }
+
+  /* move the rest of the page down accordingly */
+  /* line 110, ../scss/_navigation.scss */
+  #wrapper {
+    margin-top: 3em;
+    /*60 / 16 */
+  }
+
+  /* line 115, ../scss/_navigation.scss */
+  nav {
+    /* hide the link to top in the nav */
+  }
+  /* line 116, ../scss/_navigation.scss */
+  nav li {
+    display: inline;
+    line-height: 1em;
+  }
+  /* line 121, ../scss/_navigation.scss */
+  nav li a {
+    float: left;
+    padding: 0.9375em;
+    /* 10/16  and  15/16 */
+    border-bottom: none;
+  }
+  /* line 128, ../scss/_navigation.scss */
+  nav li a.top {
+    display: none;
+  }
+}
 /* 
 ==========================
 Index Page (homepage)
 ========================== 
 */
+/* line 12, ../scss/pages/_index.scss */
+#index h4 {
+  color: #fff;
+}
 @media only screen and (min-width: 30em) {
   /* line 9, ../scss/pages/_index.scss */
-  #home {
+  #index {
     background-color: violet;
   }
 }
 @media only screen and (min-width: 40em) {
   /* line 9, ../scss/pages/_index.scss */
-  #home {
+  #index {
     background-color: red;
   }
 }
 @media only screen and (min-width: 50em) {
   /* line 9, ../scss/pages/_index.scss */
-  #home {
+  #index {
     background-color: green;
+  }
+  /* line 35, ../scss/pages/_index.scss */
+  #index h4 {
+    color: orange;
   }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 9, ../scss/pages/_index.scss */
-  #home {
+  #index {
     background-color: yellow;
   }
 }
 @media only screen and (min-width: 80em) {
   /* line 9, ../scss/pages/_index.scss */
-  #home {
+  #index {
     background-color: blue;
     color: white;
   }
 }
 @media only screen and (min-width: 90em) {
   /* line 9, ../scss/pages/_index.scss */
-  #home {
+  #index {
     background-color: orange;
   }
 }
 
 /* 
 ==========================
-Schedule Page 
+Index Page (homepage)
 ========================== 
 */
-/* line 9, ../scss/pages/_schedule.scss */
-#schedule .time {
-  color: #63E3D9;
-}
-/* line 13, ../scss/pages/_schedule.scss */
-#schedule .opening {
-  border-top: 3px #ccc solid;
-}
-/* line 17, ../scss/pages/_schedule.scss */
-#schedule .opening, #schedule .lunch, #schedule .closing {
-  background-color: #A0E3DE;
-  overflow: hidden;
-  padding: 1.5em .5em;
-  border-bottom: 3px #ccc solid;
-}
-/* line 24, ../scss/pages/_schedule.scss */
-#schedule .opening .time, #schedule .lunch .time, #schedule .closing .time {
-  color: #555;
-  font-weight: 900;
-}
-/* line 28, ../scss/pages/_schedule.scss */
-#schedule .session {
-  overflow: hidden;
-  background-color: #555;
+/* line 12, ../scss/pages/_schedule.scss */
+#schedule h4 {
   color: #fff;
-  padding: 1.5em .5em;
-  border-bottom: 3px #ccc solid;
 }
-/* line 36, ../scss/pages/_schedule.scss */
-#schedule .session h2, #schedule .session h3, #schedule .session h4 {
-  font-family: Lato, sans-serif;
-}
-/* line 40, ../scss/pages/_schedule.scss */
-#schedule .session h3 {
-  font-size: 1.3em;
-  line-height: 1.2;
-  font-weight: 300;
-}
-/* line 46, ../scss/pages/_schedule.scss */
-#schedule .session h4 {
-  font-size: 1.2em;
-  line-height: 1.1;
-}
-/* line 52, ../scss/pages/_schedule.scss */
-#schedule .scheduleWrapper {
-  background-color: #555;
-}
-/* line 56, ../scss/pages/_schedule.scss */
-#schedule .opening, #schedule .lunch, #schedule .closing {
-  clear: both;
-  border-bottom: 3px #ccc solid;
-  border-top: 3px #ccc solid;
+@media only screen and (min-width: 30em) {
+  /* line 9, ../scss/pages/_schedule.scss */
+  #schedule {
+    background-color: violet;
+  }
 }
 @media only screen and (min-width: 40em) {
-  /* line 63, ../scss/pages/_schedule.scss */
-  #schedule .session {
-    width: 50%;
-    padding: 0 15px;
-    float: left;
-    border: none;
+  /* line 9, ../scss/pages/_schedule.scss */
+  #schedule {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 50em) {
+  /* line 9, ../scss/pages/_schedule.scss */
+  #schedule {
+    background-color: green;
+  }
+  /* line 35, ../scss/pages/_schedule.scss */
+  #schedule h4 {
+    color: orange;
   }
 }
 @media only screen and (min-width: 67.5em) {
-  /* line 71, ../scss/pages/_schedule.scss */
-  #schedule .session {
-    width: 100%;
-    padding: 0;
-    float: none;
-    border-bottom: 3px #ccc solid;
+  /* line 9, ../scss/pages/_schedule.scss */
+  #schedule {
+    background-color: yellow;
   }
-  /* line 50, ../scss/_mixins.scss */
-  #schedule .session:last-of-type {
-    float: right;
+}
+@media only screen and (min-width: 80em) {
+  /* line 9, ../scss/pages/_schedule.scss */
+  #schedule {
+    background-color: blue;
+    color: white;
   }
-  /* line 76, ../scss/pages/_schedule.scss */
-  #schedule .workshop {
-    width: 25%;
-    padding: 0 15px;
-    float: left;
+}
+@media only screen and (min-width: 90em) {
+  /* line 9, ../scss/pages/_schedule.scss */
+  #schedule {
+    background-color: orange;
   }
 }
 
-/* end schedule */
 /* 
 ==========================
 Speakers Page 
 ========================== 
 */
+/* 
+==========================
+Index Page (homepage)
+========================== 
+*/
+/* line 17, ../scss/pages/_speakers.scss */
+#speakers h4 {
+  color: #fff;
+}
+@media only screen and (min-width: 30em) {
+  /* line 14, ../scss/pages/_speakers.scss */
+  #speakers {
+    background-color: violet;
+  }
+}
+@media only screen and (min-width: 40em) {
+  /* line 14, ../scss/pages/_speakers.scss */
+  #speakers {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 50em) {
+  /* line 14, ../scss/pages/_speakers.scss */
+  #speakers {
+    background-color: green;
+  }
+  /* line 40, ../scss/pages/_speakers.scss */
+  #speakers h4 {
+    color: orange;
+  }
+}
+@media only screen and (min-width: 67.5em) {
+  /* line 14, ../scss/pages/_speakers.scss */
+  #speakers {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 80em) {
+  /* line 14, ../scss/pages/_speakers.scss */
+  #speakers {
+    background-color: blue;
+    color: white;
+  }
+}
+@media only screen and (min-width: 90em) {
+  /* line 14, ../scss/pages/_speakers.scss */
+  #speakers {
+    background-color: orange;
+  }
+}
+
 /* 
 ==========================
 About Page 
@@ -571,6 +555,94 @@ Videos Page
 */
 /* 
 ==========================
+Index Page (homepage)
+========================== 
+*/
+/* line 18, ../scss/pages/_video.scss */
+#video h4 {
+  color: #fff;
+}
+@media only screen and (min-width: 30em) {
+  /* line 15, ../scss/pages/_video.scss */
+  #video {
+    background-color: violet;
+  }
+}
+@media only screen and (min-width: 40em) {
+  /* line 15, ../scss/pages/_video.scss */
+  #video {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 50em) {
+  /* line 15, ../scss/pages/_video.scss */
+  #video {
+    background-color: green;
+  }
+  /* line 41, ../scss/pages/_video.scss */
+  #video h4 {
+    color: orange;
+  }
+}
+@media only screen and (min-width: 67.5em) {
+  /* line 15, ../scss/pages/_video.scss */
+  #video {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 80em) {
+  /* line 15, ../scss/pages/_video.scss */
+  #video {
+    background-color: blue;
+    color: white;
+  }
+}
+@media only screen and (min-width: 90em) {
+  /* line 15, ../scss/pages/_video.scss */
+  #video {
+    background-color: orange;
+  }
+}
+
+/* 
+==========================
 Sessions Page 
 ========================== 
 */
+@media only screen and (min-width: 30em) {
+  /* line 8, ../scss/pages/_sessions.scss */
+  #sessions {
+    background-color: violet;
+  }
+}
+@media only screen and (min-width: 40em) {
+  /* line 8, ../scss/pages/_sessions.scss */
+  #sessions {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 50em) {
+  /* line 8, ../scss/pages/_sessions.scss */
+  #sessions {
+    background-color: green;
+  }
+}
+@media only screen and (min-width: 67.5em) {
+  /* line 8, ../scss/pages/_sessions.scss */
+  #sessions {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 80em) {
+  /* line 8, ../scss/pages/_sessions.scss */
+  #sessions {
+    background-color: blue;
+    color: white;
+  }
+}
+@media only screen and (min-width: 90em) {
+  /* line 8, ../scss/pages/_sessions.scss */
+  #sessions {
+    background-color: orange;
+  }
+}

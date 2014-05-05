@@ -1,0 +1,138 @@
+/* 
+* ============================
+* NAVIGATION 
+* put your navigation CSS here
+* ============================= 
+*/  
+
+
+
+//Mobile Navigation ===================
+
+$nav-bg-color: #555;
+$nav-link-color: #eee;
+$nav-active-color: #f90;
+
+/* menu button */
+.menu a{
+  padding:0.5em 0.625em; /*10/16 */
+  background-color: $nav-bg-color;
+  border-radius:5px;
+  color: $nav-link-color;
+  text-decoration:none;
+}
+
+.menu a:hover{
+  color:$nav-bg-color;
+  background-color: $nav-link-color;
+}
+ 
+.menu{
+  margin-bottom:1em;
+}
+
+#topMenu{
+  display: none;
+    //Styling for Top Menu
+    clear:both;
+}
+
+//vertical nav
+nav{
+
+  ul{
+      list-style: none;
+    }
+    
+    li a{
+      display:block;
+      color: $nav-link-color;
+      background-color: $nav-bg-color;
+      text-transform: uppercase;
+      padding: 0.625em; /* 10/16 */
+      text-decoration:none;
+      border-bottom: 1px solid $nav-link-color;
+      font-weight:900;
+    }
+    
+    li a:hover{
+      color:$nav-bg-color;
+      background-color: $nav-link-color;
+    }
+      
+    li a:active{
+      color:$nav-bg-color;
+      background-color: $nav-active-color;
+    } 
+
+    li.current a{
+       color:$nav-bg-color;
+      background-color: $nav-active-color;
+    }
+}//end nav
+
+#bottom_nav{
+  background-color: $nav-bg-color;
+  overflow: hidden;
+}
+
+//Larger Screen Navigation ===================
+@include breakpoint(medium){
+  //Switch to larger screen nav
+
+  //If you want a different breakpoint for the nav then change the value above or use this line below for fully custom breakpoints
+// @media only screen and (min-width: 32em){
+ //if you use the line above you must: 
+  // 1. change the 32em to what you want
+  // 2. comment out the @include breakpoint line.
+
+    /* hide the menu button */
+    #smallMenu{
+        display:none;
+    }
+    
+   
+    #topMenu{
+      /* move main_nav to top of the screen */
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+
+      display:block; //show nav, hiding earlier
+
+      overflow:hidden;
+      background-color: $nav-bg-color; 
+
+    }//end #main_nav
+    
+    /* move the rest of the page down accordingly */
+    #wrapper{
+        margin-top: 3em;  /*60 / 16 */ 
+    }
+
+  //Style the navigations vertically
+  nav{
+    li{
+        display:inline;
+        line-height:1em;
+      }
+      
+      li a{
+        float:left;
+        padding: 0.9375em; /* 10/16  and  15/16 */
+        border-bottom: none;
+      }   
+      
+      /* hide the link to top in the nav */
+      li a.top{
+          display: none;
+      }
+    }
+    //end nav
+
+}
+// end medium Breakpoint
+
+
+

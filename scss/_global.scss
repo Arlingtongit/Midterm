@@ -1,0 +1,80 @@
+/* 
+==========================
+Global Styles
+These are styles that apply to every page on the site. For example:
+---------------
+Basic Element styling: body,h1,h2,h3,h4,h5,h6,p, a, a:link, a:hover, a:visited, ul, ul
+Repeated sections: header, footer
+
+I separated Navigation because it is complex and It's more likely that you will reuse it or modify code from someone else. 
+Separating it allows you to more easily change and reuse navigation code.
+========================== 
+*/
+
+//Some Responsive styles
+
+//border-box model
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+	@include box-sizing(border-box);
+}
+
+/* 
+This is not the only thing you should do for responsive images, but it is a start. Remember that this style will not make your image or video grow any bigger than the original so you have to put in the largest version you will need.
+That can be a performance issue since small screens will download the same image as large ones.
+This article by Luke Wroblewski goes into more detail about that: http://www.lukew.com/ff/entry.asp?1851
+*/
+img,video{
+  width: auto; 
+  max-width: 100%; 
+  height: auto;
+}
+
+//Google Font examples. You can remove these or uncomment them and change to fit your needs.
+//@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+
+
+
+@include breakpoint(small){
+
+}
+
+@include breakpoint(medium){
+
+}
+
+@include breakpoint(large){
+
+}
+
+@include breakpoint(x-large){
+
+}
+
+@include breakpoint(xx-large){
+
+}
+
+
+//==============================
+//Header
+
+header{
+	
+
+}// end header
+
+
+//==============================
+//Footer
+
+
+footer {
+
+} //end footer
+
+

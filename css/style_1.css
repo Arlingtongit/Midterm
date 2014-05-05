@@ -1,0 +1,75 @@
+body{background: black; padding: 20px}
+h1{color: white;text-align: center; margin: 60px}
+h2{color: white; text-align: center;}
+p{color: white;}
+
+img.img1{padding-left: 560px; margin: 10px }
+
+ul{margin-right: 100px; color: yellow;list-style-type:none; margin:0; padding: 0;}
+
+li{display: inline; float: left; }
+
+nav{ display: block;width: 100px; /*border: 1px solid black;*/ background-color: #0f0af5; color: #fff; text-decoration: none; text-transform: uppercase; font-weight: bold; padding: 6px; text-align: center;}
+nav:hover, a:active {background-color: #314c54; }
+
+body{background: black; padding: 20px}
+h1{color: white; text-align: center; margin: 60px}
+h2{color: white; text-align: center;}
+p{color: white; }
+h3{color: #fe0315;}
+
+
+ul{margin-right: 100px; color: yellow;list-style-type:none; margin:0; padding: 0;}
+
+li{display: inline; float: left; }
+
+nav{ display: block;width: 100px; /*border: 1px solid black;*/ background-color: #0f0af5; color: #fff; text-decoration: none; text-transform: uppercase; font-weight: bold; padding: 6px; text-align: center;}
+nav:hover, a:active {background-color: #314c54; }
+
+body{background: black; padding: 20px}
+h1{color: white; text-align: center; margin: 60px}
+h2{color: white; text-align: center;}
+p{color: white; }s
+h3{color: #fe0315;}
+
+
+ul{margin-right: 100px; color: yellow;list-style-type:none; margin:0; padding: 0;}
+
+li{display: inline; float: left; }
+
+ nav{display: block;width: 100px; /*border: 1px solid black;*/ background-color: #0f0af5; color: #fff; text-decoration: none; text-transform: uppercase; font-weight: bold; padding: 6px; text-align: center;}
+nav:hover, a:active {background-color: #314c54; }
+
+object{margin: 20px; padding-left: 470px;}
+
+body{background: black; padding: 20px}
+h1{color: white;text-align: center; margin: 70px}
+h2{color: white; text-align: center;}
+p.p1{color: white; text-align: center; }
+
+img.img1{padding-left: 560px; margin: 10px }
+
+
+nav{ display: block;width: 100px; /*border: 1px solid black;*/ background-color: #0f0af5; color: #fff; text-decoration: none; text-transform: uppercase; font-weight: bold; padding: 6px; text-align: center;}
+nav:hover, a:active {background-color: #314c54; }
+
+
+/* =====================================
+   CSS for <iframe> embedded element
+   ===================================== */
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    /* if your video is 4:3 ratio then use the padding-bottom below:*/
+    /*padding-bottom: 75%;*/ /* 4:3 */
+  
+    padding-top: 25px; /* may need to adjust depending on the size of the player controls of the service you use */
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
