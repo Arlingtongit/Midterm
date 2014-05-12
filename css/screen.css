@@ -460,47 +460,47 @@ Index Page (homepage)
 ========================== 
 */
 /* line 17, ../scss/pages/_speakers.scss */
-#speakers h4 {
+#speaker h4 {
   color: #fff;
 }
 @media only screen and (min-width: 30em) {
   /* line 14, ../scss/pages/_speakers.scss */
-  #speakers {
+  #speaker {
     background-color: violet;
   }
 }
 @media only screen and (min-width: 40em) {
   /* line 14, ../scss/pages/_speakers.scss */
-  #speakers {
+  #speaker {
     background-color: red;
   }
 }
 @media only screen and (min-width: 50em) {
   /* line 14, ../scss/pages/_speakers.scss */
-  #speakers {
+  #speaker {
     background-color: green;
   }
   /* line 40, ../scss/pages/_speakers.scss */
-  #speakers h4 {
+  #speaker h4 {
     color: orange;
   }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 14, ../scss/pages/_speakers.scss */
-  #speakers {
+  #speaker {
     background-color: yellow;
   }
 }
 @media only screen and (min-width: 80em) {
   /* line 14, ../scss/pages/_speakers.scss */
-  #speakers {
+  #speaker {
     background-color: blue;
     color: white;
   }
 }
 @media only screen and (min-width: 90em) {
   /* line 14, ../scss/pages/_speakers.scss */
-  #speakers {
+  #speaker {
     background-color: orange;
   }
 }
